@@ -100,10 +100,7 @@ export default function CreateCampaign() {
           >
             {loading ? "Creating Campaign..." : "Create Campaign"}
           </button>
-
-          <p className="muted" style={{ fontSize: "0.9rem", marginTop: "1rem" }}>
-            You will sign this transaction in MetaMask. No real BNB is needed on testnet.
-          </p>
+          
         </div>
       </section>
     </main>

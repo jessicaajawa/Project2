@@ -25,15 +25,6 @@ export default function About() {
         <Info title="⚠️ Important Limitation" text="Transparency does not automatically prove trust. Wallet addresses can be created by anyone and do not always identify real-world people." />
       </section>
 
-      <section className="card" style={{ marginTop: "1.5rem" }}>
-        <h2>Why this design?</h2>
-        <p className="muted">
-          The frontend is built with React, React Router, hooks, reusable components,
-          and ethers.js. The smart contract is intentionally simple and readable so it
-          behaves like a student-built decentralized backend while still supporting the
-          core actions required by the application.
-        </p>
-      </section>
     </main>
   );
 }

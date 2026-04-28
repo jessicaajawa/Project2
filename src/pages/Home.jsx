@@ -31,7 +31,6 @@ export default function Home() {
         </div>
 
         <div className="card">
-          <span className="badge">Live Web3 Demo</span>
           <h2 style={{ marginTop: "1rem" }}>How it works</h2>
 
           <div className="stat-grid" style={{ gridTemplateColumns: "1fr" }}>
