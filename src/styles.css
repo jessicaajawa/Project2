@@ -316,3 +316,8 @@ a {
     padding-top: 2rem;
   }
 }
+//Trying to see if this works 
+//adds smooth transitions to UI changes 
+* {
+  transition: all 0.2s ease;
+}
